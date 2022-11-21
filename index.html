@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="multi_color_border"></div>
+        <div class="top_nav">
+            <div class="left">
+                
+                <div class="search_bar">
+                    <ul>
+                <li>  <img id="homeimg" src="images/house-icon.png" > </li>
+          
+                <li>  <p style="color:rgb(255, 255, 255);"> Komar University of Science and Technology </p> </li>
+
+                <li>    <img id="mailimg" src="images/mail-icon.png"  > </li>
+
+                <li> <p style="color:rgb(255, 255, 255);"> library@komar.edu.iq </p>  </li>
+                </ul>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>  <a href="https://www.facebook.com/KUSTsuli/"><img src="images/facebook-icon.png""></a> </li>
+
+                <li> <a href="https://komar.edu.iq/"><img src="images/google-icon.png""></a> </li>
+
+                <li> <a href="https://twitter.com/komaruniversity"><img src="images/twitter-icon.png""></a> </li>
+
+                <li> <a href="https://iq.linkedin.com/school/komaruniversity/"><img src="images/linkedin-icon.png""></a> </li>
+
+                <li> <a href="https://www.instagram.com/komar_university/"><img src="images/instagram-icon.png""></a> </li>
+
+                <li> <a href="https://my.komar.edu.iq/#/">sign in </a> </li>
+                </ul>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="bottom_nav">
+        <div class="left2">
+            <div class="logo">
+            <ul>
+            <li>  <img src="images/KUST_Logo.png">   </li>
+            </ul>
+            </div>
+        </div>
+            <div class="right2">
+                <ul>
+                    <li><a href="#"> Home  </a></li>
+                    <li><a href="#"> About Us </a></li>
+                    <li><a href="#"> Service  </a></li>
+                    <li><a href="#">  Users </a></li>
+                    <li><a href="#"> Contact  </a></li>
+                    <li><a href="#">   </a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="images/slide1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/slide2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/slide3.jpg" alt="">
+          </div>
+          
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 3){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+
+
+<div class="kustL">
+
+
+
+<br>
+
+    <h1 style="margin: 0px 200px; float: inline-end;">why kust library</h1> <br>
+    <p>All the text books on your syllabus are avilable along with huge number of useful references and articles!</p>
+<div class="libimg">
+    <a href="https://elib.komar.edu.iq/login.php">
+    <img src="images/i1.png" >
+     </a>
+    <a href="https://elib.komar.edu.iq/login.php"">
+    <img src="images/i2.png">
+  </a>
+  </div>
+  
+
+  <div style="display: flex;  padding: 0px 10px; ">
+    <h3 >e-library ‎ </h3>
+    <h3 style="position: absolute; left: 50%;" >physical library</h3>
+  </div>
+
+
+  <p style="display: flex;  padding: 0px 10px;"">Provides access to journals, books, magazines,newspaper, electronic books, encyclopedias!</p>
+  <p style="position: absolute; left: 70%;">Provides Books, Articles and Thesis in a hard copy!</p>
+
+
+
+  
+
+
+
+</div>
+
+<div class="zoom">
+    <img src="images/l1.png">
+</div>
+    <div class="zoom">
+    <img src="images/l2.png">
+</div>
+    <div class="zoom">
+    <img src="images/l3.png">
+</div>
+
+
+
+
+<footer class="sticky-footer">
+    <!-- <h2>Footer Stick to the Bottom</h2> -->
+    <ul>
+        <li><a href="#">LIBRARY OPENING TIME</a>
+        <p>Sunday-Thursday/ 8:00AM- 4:00PM.</p></li>
+        <li><a href="#">ADDITIONAL LINKS</a>
+        <p> About us </br>
+            Terms and conditions </br>
+            Privacy policy  </br>
+            News </br>
+            Contact us<p></li>
+                </ul>
+        <ul>
+        <li><a href="#">SERVICES</a>
+        <p>
+            Search books</br>
+            Download Books</br>
+            Find location of the books</br>
+            Follow up Student's activities</br>
+            Technical support
+        </p></li>
+        <li><a href="#">CONTACT US</a>
+        <p>
+            KUST Library, Qularaisi,</br>
+    Sulaimani, Kurdistaqn Reqion, Iraq</br>
+    +964 750 110 3131</br>
+    <input type="email" id="emails" name="emails" multiple>
+  <input type="submit">
+        </p></li>
+        
+    </ul>
+    <p> © Copyrights 2020 Design by Komar Data Center</p>
+</footer>  
+
+</body>
+</html>
